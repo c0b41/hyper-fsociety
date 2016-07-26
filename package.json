@@ -1,0 +1,23 @@
+{
+  "name": "hyperterm-fsociety",
+  "version": "1.0.0",
+  "description": "hyperterm theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0b41/hyperterm-fsociety.git"
+  },
+  "keywords": [
+    "hyperterm",
+    "hyperterm-theme"
+  ],
+  "author": "c0b41",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c0b41/hyperterm-fsociety/issues"
+  },
+  "homepage": "https://github.com/c0b41/hyperterm-fsociety#readme"
+}
