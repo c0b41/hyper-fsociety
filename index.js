@@ -19,7 +19,7 @@ exports.decorateConfig = config => {
     borderColor: '#D8DBE2',
     cursorColor: '#D8DBE2',
     fontSize:14,
-    FontFamily:'Fira Code, Menlo, DejaVu Sans Mono, Lucida Console, monospace'
+    FontFamily:'Fira Code, Menlo, DejaVu Sans Mono, Lucida Console, monospace',
     colors: [
       black,
       red,
