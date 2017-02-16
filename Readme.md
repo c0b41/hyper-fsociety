@@ -2,7 +2,7 @@
 
 ![alt text](./screenshot.png)
 
-Menu show/hide **Alt** keypress
+also install [fsociety](https://github.com/c0b41/fsociety) fish prompt.
 
 ### İnstall
 

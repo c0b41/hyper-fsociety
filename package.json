@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-fsociety",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "hyperterm theme",
   "main": "index.js",
   "scripts": {

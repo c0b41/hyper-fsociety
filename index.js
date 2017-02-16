@@ -1,7 +1,7 @@
 'use strict';
 const foregroundColor = '#A9BCD0';
 const backgroundColor = '#1B1B1E';
-const black = backgroundColor;
+const black = '#1B1B1E';
 const red = '#ff5c57';
 const green = '#5af78e';
 const yellow = '#f3f99d';
@@ -14,12 +14,13 @@ const brightWhite = foregroundColor;
 
 exports.decorateConfig = config => {
   return Object.assign({}, config, {
+    showHamburgerMenu:true,
     backgroundColor,
     foregroundColor,
-    borderColor: '#D8DBE2',
+    borderColor:red,
     cursorColor: '#D8DBE2',
     fontSize:14,
-    FontFamily:'Fira Code, Menlo, DejaVu Sans Mono, Lucida Console, monospace',
+    fontFamily:'Fira Code, Menlo, DejaVu Sans Mono, Lucida Console, monospace',
     colors: [
       black,
       red,
@@ -51,10 +52,4 @@ exports.decorateConfig = config => {
       }
     `
   });
-}
-
-exports.onWindow = (window) => {
-  if(process.platform === 'linux') {
-    window.setAutoHideMenuBar(true);
-  }
 }
