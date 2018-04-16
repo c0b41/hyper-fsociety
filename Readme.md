@@ -1,11 +1,20 @@
-## Hyperterm Fsociety
+## Hyper Fsociety
 
 ![alt text](./screenshot.png)
 
 also install [fsociety](https://github.com/c0b41/fsociety) fish prompt.
 
-### İnstall
+### Install
 
 ```sh
-hpm install hyperterm-fsociety
+cd  ~/.hyper_plugins
+yarn add hyper-fsociety
+```
+
+### Usage
+
+```js
+plugins: [
+  'hyper-fsociety'
+]
 ```
